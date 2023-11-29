@@ -11,7 +11,7 @@ class Config:
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
     SESSION = os.environ.get("SESSION", "")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", ""))
-    BOT_USERNAME= os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME= os.environ.get("BOT_USERNAME", "publicforward01_bot")
 
 
 def LOGGER(name: str) -> logging.Logger:
